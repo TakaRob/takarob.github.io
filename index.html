@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>takaji robson — applied physics &amp; engineering</title>
+  <meta name="description" content="takaji robson is a research engineer with a background in applied physics, perovskite solar cells, scientific computing, hardware development, and machine learning." />
+  <meta property="og:title" content="takaji robson — applied physics &amp; engineering" />
+  <meta property="og:description" content="takaji robson is a research engineer with a background in applied physics, perovskite solar cells, scientific computing, hardware development, and machine learning." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="takaji robson — applied physics &amp; engineering" />
+  <meta name="twitter:description" content="research engineer in applied physics, photovoltaic devices, and scientific software." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Takaji Robson",
+    "givenName": "Takaji",
+    "familyName": "Robson",
+    "url": "https://takarob.github.io",
+    "jobTitle": "Research Engineer",
+    "description": "Research Engineer with a strong foundation in applied physics, hardware and software development, and scientific troubleshooting.",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Middlebury College"
+    },
+    "email": "takaji.robson@gmail.com",
+    "sameAs": [
+      "https://github.com/TakaRob",
+      "https://linkedin.com/in/takajirobson",
+      "https://www.lifestreamdigitalmemorybox.com/portfolios-view/f0040eb4e0689dece2abdcd7385c49fe/1175"
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --background: #ffffff;
+      --foreground: #000000;
+      --link: #0000ee;
+      --link-visited: #551a8b;
+      --muted: #6b7280;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111111;
+        --foreground: #eeeeee;
+        --link: #8ab4f8;
+        --link-visited: #c58af9;
+        --muted: #9ca3af;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-shadow: none !important;
+      border-radius: 0 !important;
+      -webkit-backdrop-filter: none !important;
+      transition: none !important;
+      animation: none !important;
+    }
+
+    body {
+      background: var(--background);
+      color: var(--foreground);
+      font-family: "Times New Roman", Times, Georgia, serif;
+      font-size: 16px;
+      line-height: 1.5;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: var(--link) !important;
+      text-decoration: underline !important;
+      text-underline-offset: 2px;
+    }
+
+    a:visited {
+      color: var(--link-visited) !important;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 48rem; /* 768px - Tailwind max-w-3xl */
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media (min-width: 640px) {
+      .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+    }
+
+    .section-wrapper {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
+    h1 {
+      font-size: 1.875rem; /* 30px */
+      line-height: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .bio {
+      font-size: 1rem;
+      line-height: 1.5;
+      max-width: 36rem; /* Tailwind max-w-xl */
+      margin-bottom: 1.5rem;
+    }
+
+    .nav-links {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .social-links {
+      font-size: 0.875rem; /* 14px */
+      margin-bottom: 1rem;
+    }
+
+    .contact {
+      font-size: 0.875rem;
+    }
+
+    .divider-block {
+      margin-top: 2.5rem;
+    }
+
+    .main-heading {
+      font-size: 0.875rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+    }
+
+    .sections-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .category-title {
+      font-size: 0.875rem;
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      margin-bottom: 0.75rem;
+    }
+
+    .items-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .item-header {
+      font-size: 0.875rem;
+    }
+
+    .bold {
+      font-weight: 700;
+    }
+
+    .item-desc {
+      font-size: 0.875rem;
+      margin-top: 0.125rem;
+    }
+
+    .item-links {
+      font-size: 0.875rem;
+      margin-top: 0.125rem;
+    }
+
+    .list-bullets {
+      margin-top: 0.25rem;
+      padding-left: 1.25rem;
+      font-size: 0.875rem;
+    }
+
+    .list-bullets li {
+      margin-bottom: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <main>
+      <section class="section-wrapper">
+        <h1>takaji robson</h1>
+        
+        <p class="bio">
+          research engineer with a strong foundation in applied physics, hardware and software development, and scientific troubleshooting. specialized in perovskite solar cells, thin-film semiconductors, and photovoltaic device physics. experienced in designing and operating custom r&amp;d test systems, rapid prototyping of hardware and pcbs, scientific computing, and deploying machine learning &amp; ai workflows to accelerate sustainable energy technologies from concept through validation. currently physics at <a href="https://www.middlebury.edu" target="_blank" rel="noopener noreferrer">middlebury college</a>. previously research at <a href="https://www.anl.gov" target="_blank" rel="noopener noreferrer">argonne national laboratory</a> (sector 19, x-ray science division), r&amp;d engineering at <a href="https://verdetechnologies.com" target="_blank" rel="noopener noreferrer">verde technologies</a>, and software engineering at <a href="https://nuvve.com" target="_blank" rel="noopener noreferrer">nuvve</a> in osaka, japan. on the side: <a href="https://github.com/TakaRob/Hydroponics_COM-DB-API" target="_blank" rel="noopener noreferrer">makerspace hydroponics</a>, middruns leader, competitive gaming, jiu-jitsu, chess, and languages (japanese n3, portuguese, spanish).
+        </p>
+
+        <p class="nav-links">
+          <span>[ <a href="resume.pdf" target="_blank">resume (pdf)</a> ]</span>
+          <span> [ <a href="blog/">blog</a> ]</span>
+          <span> [ <a href="notes/">notes</a> ]</span>
+          <span> [ <a href="https://github.com/TakaRob" target="_blank" rel="noopener noreferrer">github</a> ]</span>
+        </p>
+
+        <p class="social-links">
+          find me elsewhere: 
+          <span><a href="https://linkedin.com/in/takajirobson" target="_blank" rel="noopener noreferrer">linkedin</a></span>
+          <span> | <a href="https://github.com/TakaRob" target="_blank" rel="noopener noreferrer">github</a></span>
+          <span> | <a href="https://www.lifestreamdigitalmemorybox.com/portfolios-view/f0040eb4e0689dece2abdcd7385c49fe/1175" target="_blank" rel="noopener noreferrer">portfolio</a></span>
+          <span> | <a href="tel:2148971439">(214) 897-1439</a></span>
+        </p>
+
+        <p class="contact">
+          reach out: <a href="mailto:takaji.robson@gmail.com">takaji.robson@gmail.com</a>
+        </p>
+
+        <div class="divider-block">
+          <p class="main-heading">a few things i've done</p>
+
+          <div class="sections-stack">
+
+            <!-- EXPERIENCE -->
+            <div>
+              <p class="category-title">research &amp; engineering experience</p>
+              <div class="items-stack">
+                
+                <div>
+                  <p class="item-header"><span class="bold">argonne national laboratory</span> — research intern (suli), x-ray science division (sector 19) | lemont, il (summer 2026)</p>
+                  <p class="item-desc">title: high-resolution structural mapping of perovskite thin films. resolving (111) and (001) microstructures via automated nano-xrd analysis and a cli-based computer vision pipeline.</p>
+                  <p class="item-desc">• developed the ANLCVEVOLVE python package to automate data compression, bragg angle alignment, peak finding, feature contouring, gui visualization, and automated report generation for large nanoscale x-ray diffraction datasets.</p>
+                  <p class="item-desc">• implemented ai-assisted workflow automation to streamline experimental data processing, improve reproducibility, and accelerate laboratory throughput.</p>
+                  <p class="item-desc">• investigated structural degradation of perovskite crystals during nano-xrd measurements by comparing (001) and (111) crystal planes, identifying preferred crystal orientations and feature sizes across photovoltaic devices.</p>
+                  <p class="item-links"><span>[ <a href="https://github.com/TakaRob/ANLCVEVOLVENANOXRD" target="_blank" rel="noopener noreferrer">anlcvevolve repo</a> ]</span> <span> [ <a href="https://www.anl.gov" target="_blank" rel="noopener noreferrer">argonne</a> ]</span></p>
+                </div>
+
+                <div>
+                  <p class="item-header"><span class="bold">verde technologies</span> — junior r&amp;d engineer | burlington, vt (april 2025 – may 2026)</p>
+                  <p class="item-desc">• designed and deployed automated solar testing systems (32 indoor / 16 outdoor) integrating custom pcbs, sensors, and data acquisition systems for multiplexed maximum power point (mpp) tracking and accelerated stress testing.</p>
+                  <p class="item-desc">• trained convolutional neural networks (cnns) to detect defects in photoluminescent images of perovskite thin films.</p>
+                  <p class="item-desc">• developed a django-based webui to accelerate experimental data collection, increasing azure database throughput by 25x while reducing analysis time by over 50%.</p>
+                  <p class="item-desc">• deployed a cloud-based database viewer integrating an llm-powered natural language interface to generate sql queries, improving experimental data accessibility across the r&amp;d team.</p>
+                  <p class="item-desc">• calibrated solar simulators, configured relay systems, and integrated keithley source measure units (smus) using pyvisa across linux and windows environments.</p>
+                  <p class="item-desc">• regularly presented experimental analysis, results, and industry research to the founder, ceo, and headrick thin film research group.</p>
+                  <p class="item-desc">• maintained, repaired, and troubleshot lab instrumentation, including an x-ray diffractometer and glove boxes.</p>
+                  <p class="item-links"><span>[ <a href="https://github.com/TakaRob/ThorlabsCameraPL" target="_blank" rel="noopener noreferrer">thorlabs pl repo</a> ]</span> <span> [ <a href="https://verdetechnologies.com" target="_blank" rel="noopener noreferrer">verde tech</a> ]</span></p>
+                </div>
+
+                <div>
+                  <p class="item-header"><span class="bold">nuvve holding corp</span> — software engineering intern | osaka, japan (jun 2023 – sep 2023)</p>
+                  <p class="item-desc">• adapted and localized an amazon web services (aws)-based staging environment from u.s. specifications to facilitate secure and scalable battery system integration into japanese public energy markets.</p>
+                  <p class="item-desc">• developed and tested java-based communication software utilizing a rabbitmq message broker to remotely monitor and control stationary batteries and support real-time charge/discharge commands.</p>
+                  <p class="item-desc">• engineered a raspberry pi simulator to generate realistic operational data streams (voltage, current, state of charge) for communication protocol validation.</p>
+                  <p class="item-desc">• developed a grafana-based dashboard for real-time visualization of battery parameters, communication status, and system performance.</p>
+                  <p class="item-links"><span>[ <a href="https://nuvve.com" target="_blank" rel="noopener noreferrer">nuvve</a> ]</span></p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- RESEARCH PROJECTS & THESIS -->
+            <div>
+              <p class="category-title">selected research &amp; projects</p>
+              <div class="items-stack">
+
+                <div>
+                  <p class="item-header"><span class="bold">senior thesis: scattering method for green's functions in separable geometries</span> — middlebury college (2022 – 2026)</p>
+                  <p class="item-desc">• authored a rigorous treatment of green’s functions for analytically complex coordinate systems, deriving the green's function for conical geometries using the eigenfunction expansion (scattering) method.</p>
+                  <p class="item-desc">• applied the sommerfeld-watson transformation and kontorovich-lebedev integral representations to transform discrete angular momentum sums into continuous spectra for wedge and conical geometries.</p>
+                  <p class="item-desc">• explored perturbation theory and hybrid semi-analytical computational methods combining analytical green's functions with finite difference methods to model wave scattering in realistic, non-separable shapes like deformed quasi-conical tips.</p>
+                </div>
+
+                <div>
+                  <p class="item-header"><span class="bold">confocal laser scanning microscope</span> — middlebury physics laboratory</p>
+                  <p class="item-desc">• designed and constructed a prototype confocal laser scanning microscope capable of resolving 0.03 mm features using stepper motor raster scanning.</p>
+                  <p class="item-desc">• integrated optical components, motion control systems, and python-based image processing with ray tracing analysis.</p>
+                  <p class="item-desc">• evaluated and presented imaging performance metrics, quantified error margins, and proposed improvement pathways for future 3d imaging.</p>
+                </div>
+
+                <div>
+                  <p class="item-header"><span class="bold">householder qr decomposition &amp; ekg signal processing</span> — numerical linear algebra</p>
+                  <p class="item-desc">• led a matlab study of the householder qr algorithm, covering derivation, worked examples, and stress testing across matrices of varying size and condition number.</p>
+                  <p class="item-desc">• presented workflow of ekg signal processing from deconstruction, signal acquisition, and transmission to reconstruction and analysis for wearable devices.</p>
+                </div>
+
+                <div>
+                  <p class="item-header"><span class="bold">automated hydroponics system</span> — middlebury makerspace</p>
+                  <p class="item-desc">automated sensing, serial comms, database logging, and control rest api for indoor cultivation environments.</p>
+                  <p class="item-links"><span>[ <a href="https://github.com/TakaRob/Hydroponics_COM-DB-API" target="_blank" rel="noopener noreferrer">hydroponics repo</a> ]</span></p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- EDUCATION -->
+            <div>
+              <p class="category-title">education</p>
+              <div class="items-stack">
+                <div>
+                  <p class="item-header"><span class="bold">middlebury college</span>, middlebury, vt — b.a. in physics (2022 – 2026)</p>
+                  <p class="item-desc">coursework: experimental physics ii, quantum mechanics, computational physics, numerical linear algebra, electromagnetism, analytical mechanics, waves and fourier analysis, real analysis, statistical mechanics.</p>
+                  <p class="item-desc">languages: intermediate japanese (jlpt n3), advanced portuguese, intermediate spanish.</p>
+                  <p class="item-links"><span>[ <a href="https://www.middlebury.edu" target="_blank" rel="noopener noreferrer">middlebury</a> ]</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- TECHNICAL SKILLS -->
+            <div>
+              <p class="category-title">technical skills</p>
+              <div class="items-stack">
+                <div>
+                  <p class="item-desc"><span class="bold">programming languages:</span> python, java, c++, sql, matlab, bash, r</p>
+                  <p class="item-desc"><span class="bold">scientific computing &amp; ml:</span> numpy, scipy, pandas, matplotlib, jupyter, pytorch, pyvisa, computer vision (opencv)</p>
+                  <p class="item-desc"><span class="bold">laboratory instrumentation:</span> nano-xray diffraction (nano-xrd), xray fluorescence (xrf), photolithography, source measure units (smus), scanning electron microscope (sem), solar simulators, glove boxes</p>
+                  <p class="item-desc"><span class="bold">software development:</span> flask, django, rest apis, docker, linux, windows</p>
+                  <p class="item-desc"><span class="bold">ai-assisted development:</span> claude, mcp (model context protocol), llm workflow automation &amp; tooling</p>
+                  <p class="item-desc"><span class="bold">hardware, engineering &amp; cloud:</span> arduino, raspberry pi, esp32, custom pcb prototyping, aws, azure, oracle, grafana, solidworks, autocad, revit</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ACTIVITIES -->
+            <div>
+              <p class="category-title">activities &amp; leadership</p>
+              <div class="items-stack">
+                <div>
+                  <p class="item-header"><span class="bold">middruns club</span> — treasurer &amp; run leader (fall 2024 – may 2026)</p>
+                  <p class="item-desc">managed club funds and organized weekly running events for 180+ members.</p>
+                </div>
+                <div>
+                  <p class="item-header"><span class="bold">extracurriculars &amp; clubs</span></p>
+                  <p class="item-desc">middlebury makerspace hydroponics team, jiu-jitsu club, chess club, club basketball.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>

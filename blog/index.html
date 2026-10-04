@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>blog — takaji robson</title>
+  <meta name="description" content="takaji robson — blog, writings and research thoughts." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+  <style>
+    :root {
+      --background: #ffffff;
+      --foreground: #000000;
+      --link: #0000ee;
+      --link-visited: #551a8b;
+      --muted: #6b7280;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111111;
+        --foreground: #eeeeee;
+        --link: #8ab4f8;
+        --link-visited: #c58af9;
+        --muted: #9ca3af;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-shadow: none !important;
+      border-radius: 0 !important;
+    }
+
+    body {
+      background: var(--background);
+      color: var(--foreground);
+      font-family: "Times New Roman", Times, Georgia, serif;
+      font-size: 16px;
+      line-height: 1.5;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a {
+      color: var(--link) !important;
+      text-decoration: underline !important;
+      text-underline-offset: 2px;
+    }
+
+    a:visited {
+      color: var(--link-visited) !important;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 48rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+    }
+
+    .section-wrapper {
+      padding-top: 3.5rem;
+      padding-bottom: 5rem;
+    }
+
+    .back-link {
+      font-size: 0.875rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 1.875rem;
+      font-weight: 500;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 4rem;
+    }
+
+    .empty-state {
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <main>
+      <section class="section-wrapper">
+        <p class="back-link">[ <a href="../">takaji robson</a> ]</p>
+        <h1>Blog</h1>
+        <p class="subtitle">a live journal. writings and thoughts on physics, hardware, and renewable energy.</p>
+        <p class="empty-state">Nothing here yet.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
